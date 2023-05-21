@@ -1,4 +1,4 @@
-const CLIENT_ID = promt('Enter, please, id-chat:')/*'y0znSl6qJqDbN3r0'*/;
+const CLIENT_ID = prompt('Enter, please, id-chat:')/*'y0znSl6qJqDbN3r0'*/;
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
